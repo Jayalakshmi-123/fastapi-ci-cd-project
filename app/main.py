@@ -12,4 +12,3 @@ def read_root():
 def feature_endpoint():
     """Feature endpoint for demo purposes."""
     return {"message": "This is from a feature branch!"}
-
