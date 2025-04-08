@@ -8,7 +8,6 @@ app = FastAPI()
 def read_root():
     """Root GET endpoint returning a message."""
     return {"message": "Hello, World!"}
-
 @app.get("/feature")
 def feature_endpoint():
     """Feature endpoint for demo purposes."""
